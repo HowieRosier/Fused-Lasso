@@ -42,3 +42,9 @@ source("R/step2_group_lasso.R")
 ## Outputs
 
 `result/` — change point tables and fused coefficient curves for each step.
+
+## Dementia analysis on All of Us v9
+
+The current code for the dementia analysis (cohort construction, the fine-tuned sparse group lasso, the two
+baselines, Cox evaluation and sensitivity checks) is in [`dementia_v9/`](dementia_v9/); see its README for the
+run order. The folders `dementia/`, `standard/` and `v2/` hold the earlier versions.
